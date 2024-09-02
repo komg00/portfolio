@@ -9,10 +9,21 @@ const config: Config = {
   theme: {
     extend: {
       backgroundImage: {
-        "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
-        "gradient-conic":
-          "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
+        main: "url('../public/images/background.jpg')",
       },
+      colors: {
+        "bg-main": "#55B2D4",
+        "bg-gray": "#F0F0F0",
+        "border-main": "#5B5B5B",
+        "font-blue": "#1A7494",
+        "font-main": "#208DB3",
+        "border-content": "#B6B6B6",
+        blue: "#0000FF",
+      },
+    },
+    fontFamily: {
+      DungGeunMo: ["DungGeunMo"],
+      NeoDunggeunmoPro: ["NeoDunggeunmoPro-Regular"],
     },
   },
   plugins: [],
