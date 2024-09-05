@@ -15,3 +15,10 @@
   font-weight: normal;
   font-style: normal;
 }
+
+@font-face {
+  font-family: 'Noto-Sans';
+  src: url('//fonts.googleapis.com/earlyaccess/notosanskr.css');
+  font-weight: normal;
+  font-style: normal;
+}

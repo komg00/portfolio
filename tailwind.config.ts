@@ -24,6 +24,7 @@ const config: Config = {
     fontFamily: {
       DungGeunMo: ["DungGeunMo"],
       NeoDunggeunmoPro: ["NeoDunggeunmoPro-Regular"],
+      NotoSans: ["Noto-Sans"],
     },
   },
   plugins: [],

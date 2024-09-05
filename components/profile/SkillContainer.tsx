@@ -1,13 +1,11 @@
 import React from "react";
 
 interface SkillContainerProps {
-  index: string;
   title: string;
   skills: string[];
 }
 
 export default function SkillContainer({
-  index,
   title,
   skills,
 }: SkillContainerProps) {

@@ -3,7 +3,7 @@ import Image from "next/image";
 
 export default function About() {
   return (
-    <>
+    <div id="about" className="">
       <p className="text-font-main text-xl font-DungGeunMo border-b-2">
         About Me
       </p>
@@ -14,6 +14,6 @@ export default function About() {
           <p>저는 사용자 경험을 중시합니다.</p>
         </div>
       </div>
-    </>
+    </div>
   );
 }

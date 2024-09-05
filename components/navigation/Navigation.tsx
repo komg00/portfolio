@@ -20,7 +20,7 @@ export default function Navigation() {
       </Link>
       <Link
         href="/profile"
-        className={`absolute w-20 top-12 -right-9 py-1.5 border rounded-tr-lg rounded-br-lg ${
+        className={`absolute w-20 top-10 -right-9 py-1.5 border rounded-tr-lg rounded-br-lg ${
           currentPath === "/profile"
             ? "bg-white border-border-content"
             : "bg-font-main text-white border-border-main"
@@ -30,7 +30,7 @@ export default function Navigation() {
       </Link>
       <Link
         href="/project"
-        className={`absolute w-20 top-24 -right-9 py-1.5 border rounded-tr-lg rounded-br-lg ${
+        className={`absolute w-20 top-20 -right-9 py-1.5 border rounded-tr-lg rounded-br-lg ${
           currentPath === "/project"
             ? "bg-white border-border-content"
             : "bg-font-main text-white border-border-main"
@@ -39,9 +39,9 @@ export default function Navigation() {
         프로젝트
       </Link>
       <Link
-        href="/music"
-        className={`absolute w-20 top-36 -right-9 py-1.5 border rounded-tr-lg rounded-br-lg ${
-          currentPath === "/music"
+        href="/jukebox"
+        className={`absolute w-20 top-28 mt-2 -right-9 p-1.5 border rounded-tr-lg rounded-br-lg ${
+          currentPath === "/jukebox"
             ? "bg-white border-border-content"
             : "bg-font-main text-white border-border-main"
         }`}
@@ -50,7 +50,7 @@ export default function Navigation() {
       </Link>
       <Link
         href="/guest"
-        className={`absolute w-20 top-48 -right-9 py-1.5 border rounded-tr-lg rounded-br-lg ${
+        className={`absolute w-20 top-40 -right-9 py-1.5 border rounded-tr-lg rounded-br-lg ${
           currentPath === "/guest"
             ? "bg-white border-border-content"
             : "bg-font-main text-white border-border-main"

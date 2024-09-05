@@ -31,7 +31,7 @@ export default function Skills() {
   ];
 
   return (
-    <>
+    <div id="skills">
       <p className="text-font-main text-xl font-DungGeunMo border-b-2">
         Skills
       </p>
@@ -39,6 +39,6 @@ export default function Skills() {
       <SkillContainer title="Frontend" skills={frontend} />
       <SkillContainer title="Backend" skills={backend} />
       <SkillContainer title="Tools" skills={tools} />
-    </>
+    </div>
   );
 }
