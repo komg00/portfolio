@@ -6,7 +6,7 @@ type ContentWrapperProps = {
 
 export default function ContentWrapper({ children }: ContentWrapperProps) {
   return (
-    <div className="w-full h-5/6 my-5 py-6 px-7 border border-border-content bg-white rounded-2xl">
+    <div className="w-full h-5/6 my-5 py-6 px-7 border border-border-content bg-white rounded-2xl overflow-auto">
       {children}
     </div>
   );
